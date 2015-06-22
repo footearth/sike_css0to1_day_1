@@ -1,0 +1,41 @@
+section.info-section.whatido {
+  header {
+    margin-bottom: 60px;
+    h2 {
+      text-align: center;
+      font-size: 28px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      &::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid black;
+        width: 80px;
+        margin: 0 auto;
+        padding-top: 20px;
+      }
+    }
+    .info-section__description {
+      text-align: center;
+      font-style: italic;
+    }
+  }
+  ul.whatido__skill-list {
+    .whatido__skill {
+      background-repeat: no-repeat;
+      background-size: 140px;
+      background-position: center top;
+      padding-top: 135px;
+      text-align: center;
+    }
+    .whatido__skill--code {
+      background-image: url(../images/skill-code.png);
+    }
+    .whatido__skill--design {
+      background-image: url(../images/skill-design.png);
+    }
+    .whatido__skill--product {
+      background-image: url(../images/skill-product.png);
+    }
+  }
+}

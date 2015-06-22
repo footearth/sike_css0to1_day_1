@@ -1,0 +1,32 @@
+.clearfix {
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+ul {
+  &.nostyle {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &.inline-items {
+    li {
+      display: inline;
+    }
+  }
+}
+
+.float-layout {
+  overflow: hidden;
+  .child {
+    float: left;
+  }
+
+  .child--33 {
+    width: 33%;
+  }
+}

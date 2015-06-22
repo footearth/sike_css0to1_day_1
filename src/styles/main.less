@@ -1,4 +1,16 @@
+@import "util";
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  font-weight: 300;
+}
+
 body {
+  // font-family: 'Open Sans', 'helvetica', 'arial', 'sans-serif';
+  font-family: 'Open Sans', 'helvetica', 'arial', 'sans-serif';
+  font-weight: 300;
+  color: #62686f;
+
   background-image: url(/images/bg5.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -9,5 +21,13 @@ body {
     margin: 0 auto;
 
     @import "../includes/main-header";
+    @import "../includes/main-nav";
+
+    > .info-section {
+      padding: 30px 60px;
+      background-color: #fff;
+    }
+
+    @import "../includes/whatido";
   }
 }
