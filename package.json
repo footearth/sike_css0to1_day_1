@@ -1,0 +1,42 @@
+{
+  "name": "sike_css0to1_day_1",
+  "version": "0.0.0",
+  "description": "sike css0to1 day 1",
+  "author": "FooTearth <footearth@gmail.com>",
+  "main": "mainfile",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/footearth/sike_css0to1_day_1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/footearth/sike_css0to1_day_1/issues"
+  },
+  "homepage": "https://github.com/footearth/sike_css0to1_day_1",
+  "Keywords": [
+    "sike",
+    "web",
+    "node",
+    "gulp"
+  ],
+  "bin": {},
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "*",
+    "npb-coffee": "*",
+    "lodash": "*",
+    "del": "*",
+    "run-sequence": "*",
+    "gulp-filter": "*",
+    "gulp-jade": "*",
+    "gulp-less": "*",
+    "gulp-tap": "*",
+    "gulp-watch": "*",
+    "gulp-plumber": "*",
+    "browser-sync": "*",
+    "gulp": "*"
+  }
+}

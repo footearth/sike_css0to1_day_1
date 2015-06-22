@@ -1,0 +1,30 @@
+@import "../styles/mixin";
+
+header.main-header {
+  margin-top: 140px;
+  padding: 1px;
+  background-image: url('/images/banner.jpg');
+
+  img {
+    .centered-image();
+
+    width: 140px;
+    height: 140px;
+    margin-top: -70px;
+
+    border-radius: 999px;
+    box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
+    border: 2px solid white;
+  }
+
+  h1 {
+    .centered-container();
+
+    color: white;
+
+    font-weight: 300;
+    font-size: 50px;
+    font-family: 'Open Sans', 'helvetica', 'arial', 'sans-serif';
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+  }
+}
