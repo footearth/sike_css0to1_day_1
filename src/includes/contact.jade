@@ -2,10 +2,16 @@ section.info-section.contact
   header
     h2 Or...Leave a Message
   form(action="")
-    label(for="name") Name
-    input#name(type="text", name="name")
-    label(for="email") Email
-    input#email(type="email", name="email")
-    label(for="message") Message
-    textarea#message(name="message")
+    .label-group
+      label(for="name")
+        p Name
+      input#name(type="text", name="name")
+    .label-group
+      label(for="email")
+        p Email
+      input#email(type="email", name="email")
+    .label-group
+      label(for="message")
+        p Message
+      textarea#message(name="message")
     button(type="submit") Submit

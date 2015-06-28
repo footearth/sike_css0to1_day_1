@@ -1,8 +1,18 @@
 @import "util";
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #333;
   font-weight: 300;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -23,11 +33,12 @@ body {
     @import "../includes/main-header";
     @import "../includes/main-nav";
 
-    > .info-section {
-      padding: 30px 60px;
-      background-color: #fff;
-    }
+    @import "../includes/info-section";
 
     @import "../includes/whatido";
+    @import "../includes/education-experience";
+    @import "../includes/photos";
+    @import "../includes/get-in-touch";
+    @import "../includes/contact";
   }
 }
